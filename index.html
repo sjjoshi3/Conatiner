@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Container Loadibility!</title>
+</head>
+
+<body>
+
+  <section class="header">
+    <header>
+      <h1>Container Loadibility</h1>
+    </header>
+  </section>
+
+  <section class="body">
+    <div class="row">
+      <div class="col-md-5  ">
+        <img src="Box.jpg" class="box-img flip-box" alt="" srcset="">
+        <div>
+          <h5 id="insideLength">Length</h5>
+        </div>
+        <div>
+          <h5 id="insideWidth">Width</h5>
+        </div>
+        <div>
+          <h5 id="insideHeight">Height</h5>
+        </div>
+      </div>
+      <div class="col-md-1 form-box"> </div>
+
+      <div class="col-md-6 form-box">
+
+
+        <form id="form">
+
+
+          <div id="inside-form">
+
+            <div class="form-floating">
+              <input type="number" class="form-control input" id="length" name="boxLength" placeholder="Box Length">
+              <label for="floatingNumber" class="fontWeight" style="font-size: .9rem;">
+                Enter The Length Of Box In Cms.
+              </label>
+
+            </div>
+
+          </div>
+
+          <div id="inside-form">
+
+            <div class="form-floating">
+              <input type="number" class="form-control input" id="width" name="boxWidth" placeholder="Box Width">
+              <label for="floatingNumber" class="fontWeight" style="font-size: .9rem;">
+                Enter The Width Of Box In Cms.
+              </label>
+
+            </div>
+
+          </div>
+
+          <div id="inside-form">
+
+            <div class="form-floating">
+              <input type="number" class="form-control input" id="height" name="boxHeight" placeholder="Box Height">
+              <label for="floatingNumber" class="fontWeight" style="font-size: .9rem;">
+                Enter The Height Of Box In Cms.
+              </label>
+
+            </div>
+
+          </div>
+
+          <div id="inside-form">
+
+            <div class="form-floating">
+              <input type="number" class="form-control input" id="pcs" name="pcs"
+                placeholder="Number Of Pieces In A Box.">
+              <label for="floatingNumber" class="fontWeight" style="font-size: .9rem;">
+                Number Of Pieces In A Box.
+              </label>
+
+            </div>
+
+          </div>
+
+
+          <br>
+          <button type="reset" class="input btn btn-outline-secondary " id="test">CALCULATE</button>
+        </form>
+
+      </div>
+  </section>
+
+  <section class="result">
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-2"><h4>C.B.M</h4> <h5 id="cbm"></h5> </div>
+  <div class="col-md-2"><h4>C.U.FT</h4> <h5 id="cuft"></h5> </div>
+  <div class="col-md-2"><h4>20Feet</h4> <h5 id="feet20"></h5> </div>
+  <div class="col-md-2"><h4>40Feet</h4> <h5 id="feet40"></h5> </div>
+  <div class="col-md-2"><h4>40'H.Cube</h4> <h5 id="cube40"></h5> </div>
+  <div class="col-md-1"></div>
+</div>
+
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>

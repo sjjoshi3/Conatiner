@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    /* background-color: #c6b599; */
+    background-color: #fff;
+}
+
+section.header{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    /* color: rgb(92, 60, 5); */
+    color: #111;
+}
+.body{
+    margin: 3rem 3rem 1rem 3rem;
+   
+    
+}
+
+.box-img{
+    width: 30rem;
+    opacity: .9;
+}
+
+
+.flip-box {
+    transition: transform 0.8s;
+  }
+.rotate {
+
+    transform: rotate(360deg);
+  }
+
+
+.form-box{
+    height: 40vh;
+    width:25vw;
+} 
+.input{
+    width: 25vw;
+}
+
+#insideLength, #insideWidth, #insideHeight{
+    position: relative;
+}
+#insideLength{
+    bottom: -3rem;
+    left: 3rem;
+    transform: rotate(28deg);
+}
+#insideWidth{
+    bottom: 12rem;
+    left: 20rem;
+    transform: rotate(-28deg);
+}
+#insideHeight{
+    bottom: 15.5rem;
+    left: 14rem;
+   
+}
+
