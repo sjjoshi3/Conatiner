@@ -4,7 +4,7 @@ $("#test").click(function(){
 
 $("#test").click(function(){
     $(".box-img").toggleClass('rotate');
-    $(".box-img").attr("src", "box-1.jpg");
+//     $(".box-img").attr("src", "box-1.jpg");
 
     let length  = Number(document.getElementById("length").value);
     let width  = Number(document.getElementById("width").value);
